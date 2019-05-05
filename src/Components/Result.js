@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 class Result extends Component {
 
-
     render() {
         let {result} = this.props;
         return (
@@ -14,5 +13,4 @@ class Result extends Component {
     }
 }
 
-
-export default Result;
+export default Result

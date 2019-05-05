@@ -61,6 +61,11 @@ class App extends Component {
         }
 
         else {
+            this.state.result === 'error' || this.state.result === 'infinity' ?
+            this.setState({
+                result: button
+            })
+            :
             this.setState({
                 result: this.state.result + button
             })
