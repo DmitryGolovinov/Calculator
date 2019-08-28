@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Result from './Components/Result'
+import Result from './Components/Result';
 import KeyBoard from './Components/Keyboard';
 
 class App extends Component {
